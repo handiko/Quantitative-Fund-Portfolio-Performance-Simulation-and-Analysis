@@ -82,4 +82,8 @@ Portfolio performance chart:
 
 ---
 
+Related Project: [Multi-Criteria Optimal Portfolio Allocation using Monte Carlo](https://github.com/handiko/Optimal-Portfolio-Allocation/blob/main/README.md)
+
+---
+
 Back to [Index](https://github.com/handiko/handiko/blob/master/README.md)
