@@ -57,3 +57,24 @@ To run this backtesting simulation, you will need to install the core dependenci
 ```bash
 pip install yfinance pandas numpy matplotlib tabulate
 ```
+
+## Results
+
+Portfolio performance against the Nasdaq Index (NQ=F)
+
+```bash
+======================================================================
+Simulation Period: 2015-01-06 to 2024-12-31
+Initial Investment: $10,000.00
+======================================================================
+| Metric        | Portfolio   | NQ=F       |
+|:--------------|:------------|:-----------|
+| Final Balance | $214,683.16 | $51,700.87 |
+| Total Return  | 2046.83%    | 417.01%    |
+| Sharpe Ratio  | 0.9722      | 0.7663     |
+| Sortino Ratio | 1.3027      | 0.9774     |
+| Calmar Ratio  | 0.5859      | 0.5031     |
+
+```
+
+Portfolio performance chart:
