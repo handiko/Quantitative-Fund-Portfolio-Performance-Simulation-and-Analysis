@@ -11,7 +11,6 @@ This project focuses on the **technical execution** of the simulation, robust da
 ---
 
 ## 🛠️ Technical Overview and Methodology
-
 ### 1. Data Acquisition and Preprocessing
 
 The simulation leverages the **`yfinance`** library for fetching historical market data, specifically adjusted daily closing prices.
@@ -21,7 +20,6 @@ The simulation leverages the **`yfinance`** library for fetching historical mark
 * **Data Alignment:** A critical step is the **reconciliation and alignment** of the daily returns. Daily returns for all individual stocks and the comparison index are calculated, and then both series are intersected (`common_index`) to ensure they cover the **exact same set of trading days**. This guarantees a fair, like-for-like performance comparison.
 
 ### 2. Portfolio and Index Return Calculation
-
 #### Portfolio Returns:
 The simulation assumes a **buy-and-hold** strategy based on the initial allocation (no rebalancing). The daily portfolio return ($\text{Return}_p$) is calculated as a **weighted sum** of the individual stock daily returns ($\text{Return}_i$):
 
@@ -42,7 +40,6 @@ The portfolio balance growth reflects how an `INITIAL_CAPITAL` (e.g., \$10,000) 
 3.  **Index Balance:** The comparison index's cumulative growth is scaled by the `INITIAL_CAPITAL` to match the portfolio's starting value for the visual comparison.
 
 ### 3. Quantitative Performance Metrics (Annualized)
-
 The simulation computes several industry-standard **annualized** metrics, using a defined $\text{ANNUAL\_RISK\_FREE\_RATE}$ (e.g., 2.0%) and $\text{TRADING\_DAYS\_PER\_YEAR} = 252$. The daily risk-free rate ($\text{Daily RFR}$) is calculated as:
 $$
 \text{Daily RFR} = (1 + \text{Annual RFR})^{(1/252)} - 1
@@ -63,3 +60,4 @@ To run this backtesting simulation, you will need to install the core dependenci
 
 ```bash
 pip install yfinance pandas numpy matplotlib tabulate
+```
