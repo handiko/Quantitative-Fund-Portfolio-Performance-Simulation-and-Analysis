@@ -78,3 +78,4 @@ Initial Investment: $10,000.00
 ```
 
 Portfolio performance chart:
+![](./output.png)
