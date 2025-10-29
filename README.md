@@ -79,3 +79,7 @@ Initial Investment: $10,000.00
 
 Portfolio performance chart:
 ![](./output.png)
+
+---
+
+Back to [Index](https://github.com/handiko/handiko/blob/master/README.md)
