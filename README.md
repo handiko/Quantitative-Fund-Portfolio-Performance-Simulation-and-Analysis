@@ -40,10 +40,6 @@ The portfolio balance growth reflects how an `INITIAL_CAPITAL` (e.g., \$10,000) 
 3.  **Index Balance:** The comparison index's cumulative growth is scaled by the `INITIAL_CAPITAL` to match the portfolio's starting value for the visual comparison.
 
 ### 3. Quantitative Performance Metrics (Annualized)
-The simulation computes several industry-standard **annualized** metrics, using a defined $\text{ANNUAL\_RISK\_FREE\_RATE}$ (e.g., 2.0%) and $\text{TRADING\_DAYS\_PER\_YEAR} = 252$. The daily risk-free rate ($\text{Daily RFR}$) is calculated as:
-$$
-\text{Daily RFR} = (1 + \text{Annual RFR})^{(1/252)} - 1
-$$
 
 | Metric | Description | Formula Highlights |
 | :--- | :--- | :--- |
