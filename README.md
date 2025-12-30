@@ -45,7 +45,7 @@ The portfolio balance growth reflects how an `INITIAL_CAPITAL` (e.g., \$10,000) 
 | :--- | :--- | :--- |
 | **Sharpe Ratio** | Risk-adjusted return for unit of **total volatility**. | $\frac{\text{Mean}(\text{Excess Returns})}{\text{StdDev}(\text{Excess Returns})} \times \sqrt{252}$ |
 | **Sortino Ratio** | Risk-adjusted return focusing only on **downside volatility** (returns below $\text{Daily RFR}$). | $\frac{\text{Mean}(\text{Returns}) - \text{Daily RFR}}{\text{StdDev}(\text{Downside Returns})} \times \sqrt{252}$ |
-| **Calmar Ratio** | Measures return (Compound Annual Growth Rate, CAGR) relative to **Maximum Drawdown (MDD)**. | $\frac{\text{CAGR}}{|\text{Max Drawdown}|}$ |
+| **Calmar Ratio** | Measures return (Compound Annual Growth Rate, CAGR) relative to **Maximum Drawdown (MDD)**. | $\frac{\text{CAGR}}{\|\text{Max Drawdown}\|}$ |
 | **Max Drawdown (MDD)** | The largest peak-to-trough decline over the entire period. | $\min\left(\frac{\text{Cumulative Wealth}}{\text{Peak Cumulative Wealth}}\right) - 1$ |
 
 ---
