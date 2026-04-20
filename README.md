@@ -1,4 +1,4 @@
-# 📈 Quantitative Portfolio Performance Simulation and Analysis
+# Quantitative Portfolio Performance Simulation and Analysis
 
 ---
 
@@ -10,7 +10,7 @@ This project focuses on the **technical execution** of the simulation, robust da
 
 ---
 
-## 🛠️ Technical Overview and Methodology
+## Technical Overview and Methodology
 ### 1. Data Acquisition and Preprocessing
 
 The simulation leverages the **`yfinance`** library for fetching historical market data, specifically adjusted daily closing prices.
@@ -50,7 +50,7 @@ The portfolio balance growth reflects how an `INITIAL_CAPITAL` (e.g., \$10,000) 
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 To run this backtesting simulation, you will need to install the core dependencies:
 
